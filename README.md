@@ -9,13 +9,13 @@ To teste and possible deploy on FPGA you will need the Quartus Primer and ModelS
 Some times the ram module (Intel IP RAM) have some problems to import in the project so maybe you will have to to create your own is very simple, just rementer to set the follow options.
 
 * Do not register the output Q
-* Sset riscV_victor.hex as memory initiation file
+* Set riscV_victor.hex as memory initiation file
 * The output must be 8 bits
 * Has at least 16k of memory
 
 ### Prerequisites
 
-Install Quatus Primer Lite and ModelSim from Intel ![Site](https://fpgasoftware.intel.com/?edition=lite)
+Install Quatus Primer Lite and ModelSim from Intel [Site](https://fpgasoftware.intel.com/?edition=lite)
 
 Is import have the RiscV Toolchain from ![Github-RiscVtoolchain](https://github.com/riscv/riscv-gnu-toolchain), when building the toolchain remember to run the build script build-rv32ima.sh
 
