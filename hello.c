@@ -1,4 +1,8 @@
 
+void exit(int exit_code){
+	while(1);
+}
+
 int fibonacci(int num) {
    if(num==1 || num==2)
        return 1;
