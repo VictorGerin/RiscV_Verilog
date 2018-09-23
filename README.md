@@ -15,7 +15,7 @@ Some times the ram module (Intel IP RAM) have some problems to import in the pro
 
 ### Prerequisites
 
-Install Quatus Primer Lite and ModelSim from Intel ![Site](http://fpgasoftware.intel.com/?edition=lite)
+Install Quatus Primer Lite and ModelSim from Intel ![Site](https://fpgasoftware.intel.com/?edition=lite)
 
 Is import have the RiscV Toolchain from ![Github-RiscVtoolchain](https://github.com/riscv/riscv-gnu-toolchain), when building the toolchain remember to run the build script build-rv32ima.sh
 
